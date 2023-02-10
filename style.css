@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    text-align: center;
+    padding: 150px 0px;
+    background-image: url("Imagens/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.cabecalho h1{
+    font-weight: bolder;
+    font-size: 2.3em;
+    padding-bottom: 30px;
+}
+
+.cabecalho p{
+    font-weight: 600;
+    text-align: justify;
+    padding: 0px 30px 60px 30px;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white;
+    background-color:#333333;
+    padding: 20px 40px;
+}
+
+.cabecalho a:hover{
+    background-color: white;
+    color: #333333;
+}
+
+.primeira-section{
+    margin: 0 auto;
+    max-width: 774px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.primeira-section h1{
+    padding-bottom: 50px;
+}
+
+.segunda-section{
+    margin: 0 auto;
+    max-width: 774px;
+    background-color:#333333;
+    padding: 20px 0px;
+}
+.imagemnootbook img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+img#imgcenter{
+    width: 450px;
+    height: 298px;
+}
+.imagem-celular img#imgcenter{
+    display: block;
+    margin: 0 auto;
+}
+
+img#imgcenter{
+    display: block;
+    margin: 0 auto;
+}
+
+div#informations{
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 50px 0px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div#informations h1{
+    font-size: 1.2em;
+    padding-bottom: 50px;
+}
+
+div#informations p{
+    max-width: 405px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.7em;
+}
+
+.terceira-section{
+    text-align: center;
+}
+.terceira-section h1{
+    font-size: 1.75em;
+    padding: 50px 0px;
+}
+
+.terceira-section p{
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.8em;
+}
+
+div#digital{
+    margin: 0 auto;
+    max-width: 600px;
+    padding-bottom: 50px;
+}
+
+.contact{
+    font-size: 1em;
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #2690d4;
+    color: white;
+}
+p#email{
+    padding: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.company{
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #333333;
+    color: white;
+    padding: 50px;
+    text-align: justify;
+}
+
+.company h1{
+    text-align: center;
+}
+
+footer{
+
+    background-color: black;
+    color: white;
+}
+
+footer h1{
+    font-size:1em;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    color: #2690d4;
+    text-decoration: none;
+}
