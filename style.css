@@ -126,6 +126,11 @@ div#digital{
     max-width: 600px;
     background-color: #2690d4;
     color: white;
+    padding: 50px;
+}
+
+.contact p{
+    text-align: center;
 }
 p#email{
     padding: 30px;
