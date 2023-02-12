@@ -48,52 +48,40 @@
     padding: 50px 0px;
 }
 
+.primeira-section{
+    max-width: 350px;
+}
+
 .primeira-section h1{
     padding-bottom: 50px;
 }
 
 .segunda-section{
-    margin: 0 auto;
-    max-width: 774px;
-    background-color:#333333;
-    padding: 20px 0px;
-}
-.imagemnootbook img{
-    display: block;
-    margin: 0 auto;
-    padding-top: 30px;
-}
-
-img#imgcenter{
-    width: 400px;
-    height: 298px;
-}
-.imagem-celular img#imgcenter{
-    display: block;
+    background: #252a2f;
+    width: 100%;
     margin: 0 auto;
 }
 
-img#imgcenter{
-    display: block;
-    margin: 0 auto;
-}
 
+.segunda-section img{
+    width: 350px;
+}
 div#informations{
-    max-width: 400px;
+    max-width: 350px;
     margin: 0 auto;
-    padding: 50px 0px;
     background-color: white;
     text-align: center;
+    padding-bottom: 50px;
     margin-bottom: 20px;
 }
 
 div#informations h1{
-    font-size: 1.2em;
-    padding-bottom: 50px;
+    font-size: 1.6em;
+    padding: 50px 0px;
 }
 
 div#informations p{
-    max-width: 405px;
+    max-width: 300px;
     margin: 0 auto;
     text-align: justify;
     line-height: 1.7em;
@@ -116,14 +104,14 @@ div#informations p{
 
 div#digital{
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 300px;
+    padding-bottom: 50px;
     padding-bottom: 50px;
 }
 
 .contact{
     font-size: 1em;
     margin: 0 auto;
-    max-width: 600px;
     background-color: #2690d4;
     color: white;
     padding: 50px;
@@ -139,8 +127,8 @@ p#email{
 }
 
 .company{
+    max-width: 100%;
     margin: 0 auto;
-    max-width: 600px;
     background-color: #333333;
     color: white;
     padding: 50px;
@@ -152,7 +140,9 @@ p#email{
 }
 
 footer{
-
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
     background-color: black;
     color: white;
 }
@@ -170,3 +160,42 @@ footer a{
     color: #2690d4;
     text-decoration: none;
 }
+/* Tablets */
+@media screen and (min-width: 834px) and (max-width: 1024px) {
+    .primeira-section{
+        max-width: 1024px;
+    }
+    .segunda-section {
+      padding: 50px;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .nootbook1, .celular, .nootbook2 {
+      width: 31%;
+      margin: 20px;
+      text-align: center;
+    }
+  
+    .segunda-section img {
+      width: 100%;
+
+    }
+
+    div#informations{
+        text-align: center;
+        max-width: 260px;
+    }
+
+    div#digital{
+        max-width: 1024px;
+    }
+  }
+  /* desktop */
+
+  @media screen and (min-width:1025px) and (max-width: 1920px) {
+    
+    
+  }
+  
+  
