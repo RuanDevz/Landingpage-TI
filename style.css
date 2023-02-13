@@ -87,6 +87,10 @@ div#informations p{
     line-height: 1.7em;
 }
 
+p#texto{
+    padding: 0px 25px;
+}
+
 .terceira-section{
     text-align: center;
 }
