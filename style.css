@@ -24,8 +24,9 @@
 
 .cabecalho p{
     font-weight: 600;
-    text-align: justify;
+    text-align: center;
     padding: 0px 30px 60px 30px;
+
 }
 
 .cabecalho a{
