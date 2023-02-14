@@ -215,6 +215,11 @@ footer a{
         justify-content: space-between;
     }
 
+    .terceira-section p{
+        max-width: 1200px;
+        font-size: 1.3em;
+    }
+
     .container_info{
         display: flex;
     }
@@ -225,6 +230,10 @@ footer a{
 
     .company{
         width: 50%;
+    }
+
+    div#digital{
+        max-width: 1920px;
     }
 
     footer{
