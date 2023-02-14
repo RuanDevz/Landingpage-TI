@@ -170,6 +170,7 @@ footer a{
       padding: 50px;
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
     }
   
     .nootbook1, .celular, .nootbook2 {
@@ -204,7 +205,7 @@ footer a{
   }
   /* desktop */
 
-  @media screen and (min-width:1025px) and (max-width: 1920px) {
+  @media screen and (min-width:1025px) and (max-width: 1921px) {
     .primeira-section{
         max-width: 1000px;
     }
@@ -216,6 +217,7 @@ footer a{
         padding: 60px;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .terceira-section p{
