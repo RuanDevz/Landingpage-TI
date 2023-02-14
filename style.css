@@ -108,7 +108,7 @@ p#texto{
 
 div#digital{
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 1024px;
     padding-bottom: 50px;
     padding-bottom: 50px;
 }
@@ -144,9 +144,7 @@ p#email{
 }
 
 footer{
-    display: flex;
-    justify-content: space-around;
-    padding: 30px 0px;
+
     background-color: black;
     color: white;
 }
@@ -193,6 +191,16 @@ footer a{
 
     div#digital{
         max-width: 1024px;
+    }
+
+    div#texto{
+        max-width: 1024px;
+    }
+    
+    footer{
+        display: flex;
+        justify-content: space-around;
+        padding: 30px 0px;
     }
   }
   /* desktop */
