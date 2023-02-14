@@ -48,10 +48,6 @@
     padding: 50px 0px;
 }
 
-.primeira-section{
-    max-width: 350px;
-}
-
 .primeira-section h1{
     padding-bottom: 50px;
 }
@@ -206,8 +202,37 @@ footer a{
   /* desktop */
 
   @media screen and (min-width:1025px) and (max-width: 1920px) {
-    
-    
+    .primeira-section{
+        max-width: 1000px;
+    }
+    .twotext{
+        display: flex;
+    }
+
+    .segunda-section{
+        padding: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container_info{
+        display: flex;
+    }
+
+    .contact{
+        width: 50%;
+    }
+
+    .company{
+        width: 50%;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+        padding: 30px 0px;
+    }
+
   }
   
   
